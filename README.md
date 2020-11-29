@@ -1,4 +1,4 @@
-Ceci est mon portefolio en React, je l'ai réalisé dans le cadre de la préparation de mon stage .
+Ceci est mon portefolio en React, je l'ai réalisé dans le cadre de la préparation de mon stage . https://evejourdan.netlify.app/projets 
 
 
 #Fait
@@ -17,3 +17,4 @@ Changement polices
 gestion UX
 ajout icon formations
 ajout description projectcards
+ajout icon langage prog

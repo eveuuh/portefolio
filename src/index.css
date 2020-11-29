@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:wght@300&display=swap');
 
 body {
-    background-image: linear-gradient(to right bottom, #c38a8a, #809aec);
+    background-image: linear-gradient(to right bottom, #dbdddf, #809aec);
     background-attachment: fixed;
     color: #354538;
     font-family: 'Roboto', sans-serif;
@@ -44,7 +44,7 @@ a:hover {
     background-color: #fff;
     border-radius: 20px;
     padding: 25px 15px;
-    box-shadow: 0 0 10px #535353;
+    box-shadow:  1px 1px 1px 1px #7c7c7c75;
 }
 
 /* sidebar */
@@ -53,7 +53,7 @@ a:hover {
     height: 100%;
     border-radius: 20px;
     padding: 25px 15px;
-    box-shadow: 0 0 10px #535353;
+    box-shadow: 1px 1px 1px 1px #7c7c7c75;
     text-align: center;
 }
 
@@ -136,7 +136,7 @@ a:hover {
     font-size: 2rem;
     font-weight: 700;
     color: #354358;
-    border-bottom: 4px solid #809aec;
+    border-bottom: 2px solid #809aec;
     font-family: 'Roboto', sans-serif;
 
 }
@@ -184,9 +184,18 @@ a:hover {
     margin: 0;
     font-size: 0.9rem;
     color: #6e7e91;
+    font-weight: bold;
 }
 
+h6.skill-card__title{
+    font-weight: bold;
+    font-size:large
+}
 /* resume */
+
+.intro{
+    padding: 27px;
+}
 
 .resume {
     padding-top: 20px;
@@ -197,7 +206,7 @@ a:hover {
     
     font-size: 1.6rem;
     font-weight: 700;
-    color: #809aec;
+    color: #ffffff;
     margin-left: 20px;
 
 }
@@ -207,8 +216,12 @@ a:hover {
     background-color:#f3f5f8;
     border-radius: 20px;
     padding: 20px;
-  
-
+}
+.col-md-6.resume-card{    
+    box-shadow: 1px 1px 5px #898e99;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
 
 }
 .resume-card_split {
@@ -321,3 +334,46 @@ a:hover {
         font-size: 1rem;
     }
 }
+
+.column{
+    display:flex
+}
+
+.workflow-card__body{
+    background-color: #dbdddf;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+.workflow-card__heading {
+    margin-left: 31px;
+    margin-top: 10px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #dbdddf;
+}   
+
+
+.dl .ul{
+    color: #373333;
+    font-size: 16px;
+    font-weight: bolder;
+    list-style: none;
+    line-height: 32px;
+}
+.technos__container{
+    background-color: #dbdddf;
+    padding: 10px 10px;
+    border-radius: 15px;
+    margin-left: 10px;
+    box-shadow: 1px 1px 0 #8898e2;
+}   
+.worklow__container{
+    background-color: #dbdddf;
+    padding: 10px 10px;
+    border-radius: 15px;
+    margin-left: 10px;
+}    

@@ -1,43 +1,32 @@
 import React from 'react';
 import { motion } from 'framer-motion'
 import Skillcard from './Skillcard';
-import api from '../assets/icons/api.svg'
-import algo from '../assets/icons/algo.svg'
-import computer from '../assets/icons/computer.svg'
-import repair from '../assets/icons/repair.svg'
-import puzzle from '../assets/icons/puzzle.svg'
+
 
     const skills = [
         {
-            icon: computer,
-            title: "Developpeuse Web",
-            about: "Motivée pour réussir vos challenges"
+            title: "Front-end",
+            about: "Javascript - React - HTML/CSS-SCSS - Bootstrap "
         },
         {
-            icon: repair,
-            title: "Backend  Development",
-            about: "handle database, server, api using and SQLlite",
+            
+            title: "Back-end ",
+            about: "MySql - Mariadb - Ruby On Rails - PHP",
         },
         {
-            icon: api,
-            title: "API Development",
-            about: "I can develop robust REST API using django-rest-api "
+            title: "API Developpement",
+            about: "Postman "
+        },
+       
+        {
+            title: "Outils collaboratif",
+            about: "Git- Github- Bitbucket- Slack - Discord - Zoom - Trello - Figma"
         },
         {
-            icon: algo,
-            title: "Competitive Coder",
-            about: "a daily problem solver in HackerRank and Leetcode"
+            title: "Environnement de developpement",
+            about: "Heroku - Netlify - Vscode - Sublime Text - Linux(Ubuntu) - MacOs"
         },
-        {
-            icon: puzzle,
-            title: "UI/UX designer",
-            about: "minimalistic user interface designer using figma and  framer"
-        },
-        {
-            icon: computer,
-            title: "Whatever",
-            about: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!"
-        },
+     
     ]
     
     
@@ -67,21 +56,43 @@ import puzzle from '../assets/icons/puzzle.svg'
                 animate="visible"
                 exit="exit"
             >
-                <h6 className="about__intro">
-                    I describe myself as someone who's persistant, a quick learner and loves problem solving by using simple and scalable solutions.
-                </h6>
-                <div className="container about__container">
-                    <h6 className="about__heading">What I offer</h6>
-                    <div className="row">
-                        {
-                            skills.map(skill =>
-                                <Skillcard skill={skill} />
-    
-                            )
-                        }
-                    </div>
+                <h6 className="intro">
+                   Retrouvez ici l'intégralité des technos utilisées au cours de mon apprentissage. Convaincue de l'importance des softs skills dans le milieu profesionnel, vous y trouverez également ce que je pense être des éléments clés pour m'intégrer dans votre équipe: 
+                 </h6>
+            <div className="column">  
+                <div className="container technos__container">
+                <h4 className="resume-card__heading">
+                            Technos / Software
+                </h4>
+                {
+                        skills.map(skill =>
+                            <Skillcard skill={skill} />
+
+                        )
+                    }
                 </div>
-            </motion.div>
+                <div className="col-md-6 resume-card" >
+                    
+                    <h4 className="workflow-card__heading">
+                                Workflow
+                        </h4>
+
+                    <div className="container workflow__container">
+                        <div className="workflow-card__body"> 
+                                <p>Travail en remote  </p>
+                        </div>
+                        <div className="workflow-card__body"> 
+                            <p>Rôle de Product Owner  sur des projets de groupe</p>
+                        </div>
+                        <div className="workflow-card__body"> 
+                                Travail en remote  
+                        </div> 
+
+                    </div>     
+                </div>     
+            </div>       
+        
+        </motion.div>   
         );
     };
 export default Competences;
