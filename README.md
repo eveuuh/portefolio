@@ -1,15 +1,17 @@
-Ceci est mon portefolio en React/Typescript , il est réalisé dans le cadre de la préparation de mon stage à venir.
+Ceci est mon portefolio en React, je l'ai réalisé dans le cadre de la préparation de mon stage .
+
 
 Fait
 
 Architecture du site,
 Routes fonctionnelles,
 Components principaux fait
-Page contact
-Api emailjs intégrée et fonctionnelle
-CSS form contact
-Page projets
+
+
 A Faire
 
-Animations JS/CSS,
-Routes liens a# portefolio
+Page Contact
+Formulaire contact
+intégré emailJS
+Changement polices
+gestion UX
