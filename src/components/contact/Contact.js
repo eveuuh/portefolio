@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import './contact.css'
+import './contact.css';
 import{ init } from 'emailjs-com';
 
 
@@ -15,7 +15,6 @@ export default class extends Component {
     };
 
     init("user_ePuvOiCN6rwGVGGlSb703");
-  console.log("canard");
   }
 
   handleChange(e) {
@@ -81,7 +80,7 @@ export default class extends Component {
     let formMess = document.querySelector('.form-message');
 
     window.emailjs
-      .send("gmail", templateId, variables)
+      .send("service_csj42s1", templateId, variables)
       .then((res) => {
         formMess.innerHTML = "Message envoyé ! Nous vous recontacterons dès que possible.";
         formMess.style.background = '#00c1ec';
@@ -109,8 +108,9 @@ export default class extends Component {
 
   render() {
     return (
+      <div className="formContact">
       <form className="contact-form">
-        <h2>contactez-nous</h2>
+        <h2 className="contact-form-title">Si mon profil vous interesse, contactez moi via ce formulaire, je me ferai une joie de vous répondre dans les plus brefs délais </h2>
         <div className="form-content">
           <input
             type="text"
@@ -118,7 +118,7 @@ export default class extends Component {
             name="name"
             required
             onChange={this.handleChange.bind(this)}
-            placeholder="nom *"
+            placeholder="Nom *"
             value={this.state.name}
             autoComplete="off"
           />
@@ -127,7 +127,7 @@ export default class extends Component {
             id="company"
             name="company"
             onChange={this.handleChange.bind(this)}
-            placeholder="société"
+            placeholder="Entreprise"
             value={this.state.company}
           />
           <input
@@ -135,7 +135,7 @@ export default class extends Component {
             id="phone"
             name="phone"
             onChange={this.handleChange.bind(this)}
-            placeholder="téléphone"
+            placeholder="Téléphone"
             value={this.state.phone}
           />
           <div className="email-content">
@@ -146,7 +146,7 @@ export default class extends Component {
               name="email"
               required
               onChange={this.handleChange.bind(this)}
-              placeholder="email *"
+              placeholder="Email *"
               value={this.state.email}
               autoComplete="off"
             />
@@ -155,14 +155,15 @@ export default class extends Component {
             id="message"
             name="message"
             onChange={this.handleChange.bind(this)}
-            placeholder="message *"
+            placeholder="Message *"
             required
             value={this.state.message}
           />
         </div>
-        <input className="button" type="button" value="envoyer" onClick={this.handleSubmit.bind(this)} />
-        <div className="form-message"></div>
+        <input className="formButton" type="button" value="Envoyer" onClick={this.handleSubmit.bind(this)} />
+        <div className="end.form-message"></div>
       </form>
+      </div>
     );
   }
 }

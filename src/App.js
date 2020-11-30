@@ -34,12 +34,13 @@ function App() {
                   <Competences />
                 </Route>
                 <Route path="/projets" component={Projets} />
-                <Route>
-                  <Redirect to="/" />
-                </Route>
                 <Route path="/contact" >
                   <Contact />
                 </Route>
+                <Route>
+                  <Redirect to="/" />
+                </Route>
+              
               </Switch>
             </AnimatePresence>
           </div>
