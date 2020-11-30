@@ -27,7 +27,23 @@ const About = () => {
             animate="visible"
             exit="exit"
         >
-            <h1 className="about_title">Bienvenue sur mon portefolio!</h1>
+            <motion.div initial="hidden" animate="visible" variants={{
+                    hidden: {
+                        scale: .8,
+                        opacity: 0
+                    },
+                    visible: {
+                        scale: 1,
+                        opacity: 1,
+                        transition: {
+                        delay: .7
+                        }
+                    },
+                    }}>
+                    <h1 className="about_title">
+                        Bienvenue
+                    </h1>
+            </motion.div>
             <h6 className="about__intro">
             Je m'appelle <b> <font color="#809aec">Eve</font></b> et suite à une reconversion professionelle, je suis à la recherche d'un poste en tant que <b> <font color="#809aec">Développeuse Web .</font></b><br></br>
            
@@ -40,6 +56,7 @@ const About = () => {
             Si mon profil vous intéresse, n'hesitez pas à me <b> <font color="#809aec">contacter</font></b> , je me ferai une joie d'écouter vos propositions!
             </h6>
         </motion.div>
+       
     );
 };
 

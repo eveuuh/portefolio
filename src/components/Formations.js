@@ -32,10 +32,12 @@ const Formations = () => {
         >
             <div className="row">
                 <div className="col-lg-6 resume-card" >
-                    <h4 className="resume-card__heading">
-                            Formations
-                    </h4>
+                    
+                    
                     <div className="resume-card__body"> 
+                    <h4 className="resume-card__heading">
+                            Cursus <i class="fas fa-user-graduate"></i>
+                    </h4>
                      <h5 className="resume-card__title">
                           Developpeur Web et Web mobile
                         </h5>
@@ -54,27 +56,31 @@ const Formations = () => {
                         <h5 className="resume-card__title">
                           Infirmiére Diplômée d'état
                         </h5>
+                    
+
                         <p className="resume-card__name">(
                           IFSI St Joseph Croix Rouge Marseille (2009-2012)
                         </p>
+                        <br></br>
                     </div>
                 </div>
                 <div className="col-lg-6 resume-card" >
-                    <h4 className="resume-card__heading">
-                            Diplômes
-                    </h4>
+                   
                     <div className="resume-card__body">
+                    <h4 className="resume-card__heading">
+                            Diplômes <i class="fas fa-award"></i>
+                    </h4>
                         <h5 className="resume-card__title">
                             Concepteur - développeur d'applications Web - niveau VI
                         </h5>
                         <p className="resume-card__name">
-                            Le wagon - Juin 2020
+                            Le Wagon - Juin 2020
                         </p>
                         <h5 className="resume-card__title">
-                            Certification Opquast - Maitrise du web (niveau avancé: 850/1000)
+                            Certification Opquast - Maitrise du web 
                         </h5>
                         <p className="resume-card__name">
-                            Octobre 2020
+                        (niveau avancé: 850/1000) -  Octobre 2020
                         </p>
                         <p className="resume-card_split"> -------------------------------</p>
                         <h5 className="resume-card__title">
@@ -82,7 +88,8 @@ const Formations = () => {
                         </h5>
                         <p className="resume-card__name">
                             Juillet 2012
-                        </p><br></br>
+                        </p>
+                        <br></br>
                         
                     </div>
                 </div>

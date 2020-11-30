@@ -10,7 +10,7 @@ import Skillcard from './Skillcard';
         },
         {
             
-            title: "Back-end ",
+            title: "Back-end developpement",
             about: "MySql - Mariadb - Ruby On Rails - PHP",
         },
         {
@@ -24,7 +24,7 @@ import Skillcard from './Skillcard';
         },
         {
             title: "Environnement de developpement",
-            about: "Heroku - Netlify - Vscode - Sublime Text - Linux(Ubuntu) - MacOs"
+            about: "Heroku - Netlify - Apache - Nginx - Vscode - Sublime Text - Linux(Ubuntu) - MacOs"
         },
      
     ]
@@ -57,7 +57,7 @@ import Skillcard from './Skillcard';
                 exit="exit"
             >
                 <h6 className="intro">
-                   Retrouvez ici l'intégralité des technos utilisées au cours de mon apprentissage. Convaincue de l'importance des softs skills dans le milieu profesionnel, vous y trouverez également ce que je pense être des éléments clés pour m'intégrer dans votre équipe: 
+                   Retrouvez ici les technos utilisées au cours de mon apprentissage ainsi que ma capacité de travail : 
                  </h6>
             <div className="column">  
                 <div className="container technos__container">
@@ -79,13 +79,28 @@ import Skillcard from './Skillcard';
 
                     <div className="container workflow__container">
                         <div className="workflow-card__body"> 
-                                <p>Travail en remote  </p>
+                            <p>Travail en remote et en équipe (Slack/Discord/Zoom)</p>
                         </div>
                         <div className="workflow-card__body"> 
-                            <p>Rôle de Product Owner  sur des projets de groupe</p>
+                            <p>Product Owner lors de projets de groupe</p>
                         </div>
                         <div className="workflow-card__body"> 
-                                Travail en remote  
+                               Sensibilité à l'UI/UX  
+                        </div> 
+                        <div className="workflow-card__body"> 
+                               Maquettage/ Wireframe avec Figma 
+                        </div> 
+                        <div className="workflow-card__body"> 
+                               Développement agile
+                        </div> 
+                        <div className="workflow-card__body"> 
+                               Respect des standards de qualité web
+                        </div> 
+                        <div className="workflow-card__body"> 
+                            Collaboration & versioning avec Github/Bitbucket
+                        </div> 
+                        <div className="workflow-card__body"> 
+                            Prise de parole en public 
                         </div> 
 
                     </div>     
