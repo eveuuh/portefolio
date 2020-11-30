@@ -7,7 +7,7 @@ import Formations from './components/Formations';
 import Projets from './components/Projets';
 import Competences from './components/Competences';
 import { AnimatePresence } from 'framer-motion'
-
+import Contact from './components/contact/Contact';
 function App() {
 
   const location = useLocation();
@@ -36,6 +36,9 @@ function App() {
                 <Route path="/projets" component={Projets} />
                 <Route>
                   <Redirect to="/" />
+                </Route>
+                <Route path="/contact" >
+                  <Contact />
                 </Route>
               </Switch>
             </AnimatePresence>

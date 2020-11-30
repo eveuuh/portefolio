@@ -369,13 +369,7 @@ p.resume-card__name{
 }   
 
 
-.dl .ul{
-    color: #373333;
-    font-size: 16px;
-    font-weight: bolder;
-    list-style: none;
-    line-height: 32px;
-}
+
 .technos__container{
     background-color: #dbdddf;
     padding: 10px 10px;
@@ -389,3 +383,5 @@ p.resume-card__name{
     border-radius: 15px;
     margin-left: 10px;
 }    
+
+

@@ -17,6 +17,8 @@ const Navbar = () => {
             setActive('Formations')
         else if (currentURL.endsWith('/competences'))
             setActive('Competences')
+        else if (currentURL.endsWith('/contact'))
+            setActive('Contact')
     }, [active])
 
     const navbar_variant = {
@@ -63,6 +65,11 @@ const Navbar = () => {
                 {active !== 'Projets' &&
                     <Link to="/projets">
                         <div className="navbar__item" onClick={() => setActive('Projets')}>Projets</div>
+                    </Link>
+                }
+                  {active !== 'Contact' &&
+                    <Link to="/contact">
+                        <div className="navbar__item" onClick={() => setActive('Contact')}>Contact</div>
                     </Link>
                 }
                 

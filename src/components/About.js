@@ -1,6 +1,36 @@
 import React from 'react';
 
 
+import Skillcard from './Skillcard';
+import { motion } from 'framer-motion'
+const skills = [
+    {
+        title: "Frontend Development",
+        about: "I can build a beautiful and scalable SPA using HTML, CSS and React.js"
+    },
+    {
+        title: "Backend  Development",
+        about: "handle database, server, api using and SQLlite",
+    },
+    {
+        title: "API Development",
+        about: "I can develop robust REST API using django-rest-api "
+    },
+    {
+        title: "Competitive Coder",
+        about: "a daily problem solver in HackerRank and Leetcode"
+    },
+    {
+        title: "UI/UX designer",
+        about: "minimalistic user interface designer using figma and  framer"
+    },
+    {
+        title: "Whatever",
+        about: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!"
+    },
+]
+
+
 const About = () => {
     const about_variants = {
         hidden: {
