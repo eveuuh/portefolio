@@ -14,7 +14,7 @@ import Skillcard from './Skillcard';
             about: "MySql - Mariadb - Ruby On Rails - PHP",
         },
         {
-            title: "API Developpement",
+            title: "Développement d'API",
             about: "Postman "
         },
        
@@ -57,7 +57,7 @@ import Skillcard from './Skillcard';
                 exit="exit"
             >
                 <h6 className="intro">
-                   Retrouvez ici les technos utilisées au cours de mon apprentissage ainsi que ma capacité de travail : 
+                   Retrouvez ici les technologies utilisées au cours de mon apprentissage ainsi que ma capacité de travail : 
                  </h6>
             <div className="column">  
                 <div className="container technos__container">
@@ -79,7 +79,7 @@ import Skillcard from './Skillcard';
 
                     <div className="container workflow__container">
                         <div className="workflow-card__body"> 
-                            <p>Travail en remote et en équipe (Slack/Discord/Zoom)</p>
+                            <p>Travail en distanciel et en équipe (Slack/Discord/Zoom)</p>
                         </div>
                         <div className="workflow-card__body"> 
                             <p>Product Owner lors de projets de groupe</p>

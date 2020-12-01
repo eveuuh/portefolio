@@ -10,13 +10,13 @@ const Navbar = () => {
         let currentURL = window.location.href
         console.log(currentURL);
         if (currentURL.endsWith('/'))
-            setActive('About');
+            setActive('À propos');
         else if (currentURL.endsWith('/projets'))
             setActive('Projets')
         else if (currentURL.endsWith('/formations'))
             setActive('Formations')
         else if (currentURL.endsWith('/competences'))
-            setActive('Competences')
+            setActive('Compétences')
         else if (currentURL.endsWith('/contact'))
             setActive('Contact')
     }, [active])
@@ -47,9 +47,9 @@ const Navbar = () => {
             </div>
 
             <div className="navbar__items">
-                {active !== 'About' &&
+                {active !== 'À propos' &&
                     <Link to="/">
-                        <div className="navbar__item" onClick={() => setActive('About')}>A propos</div>
+                        <div className="navbar__item" onClick={() => setActive('À propos')}>À propos</div>
                     </Link>
                 }
                 {active !== 'Formations' ?
@@ -57,23 +57,23 @@ const Navbar = () => {
                         <div className="navbar__item" onClick={() => setActive('Formations')}>Formations</div>
                     </Link> : null
                 }
-                {active !== 'Competences' &&
+                {active !== 'Compétences' &&
                     <Link to="/competences">
-                        <div className="navbar__item" onClick={() => setActive('Competences')}>Competences</div>
+                        <div className="navbar__item" onClick={() => setActive('Compétences')}>Compétences</div>
                     </Link>
                 }
-                {active !== 'Contact' &&
-                    <Link to="/contact">
-                        <div className="navbar__item" onClick={() => setActive('Contact')}>Contact</div>
-                    </Link>
-                }
+                
                 {active !== 'Projets' &&
                     <Link to="/projets">
                         <div className="navbar__item" onClick={() => setActive('Projets')}>Projets</div>
                     </Link>
                 }
                 
-                
+                {active !== 'Contact' &&
+                    <Link to="/contact">
+                        <div className="navbar__item" onClick={() => setActive('Contact')}>Contact</div>
+                    </Link>
+                }
             </div>
 
         </motion.div>

@@ -2,7 +2,7 @@ import React from 'react';
 import Sidebar from './components/Sidebar'
 import Navbar from './components/Navbar';
 import { Route, Redirect, Switch, useLocation } from 'react-router-dom';
-import About from './components/about/About';
+import About from './components/about/A propos';
 import Formations from './components/Formations';
 import Projets from './components/Projets';
 import Competences from './components/Competences';
@@ -26,7 +26,7 @@ function App() {
             <AnimatePresence exitBeforeEnter>
               <Switch location={location} key={location.key}>
                 <Route exact path="/">
-                  <About />
+                  <About/>
                 </Route>
                 <Route path="/formations" component={Formations} />                 
                 <Route path="/competences" component={Competences} />

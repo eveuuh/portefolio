@@ -35,7 +35,7 @@ const Sidebar = () => {
         >
             <img src={photo} alt="avatar" className="sidebar__avatar" />
             <div className="sidebar__name">Eve <span>JOURDAN</span> </div>
-            <div className="sidebar__item sidebar__title">Developpeuse Web</div>
+            <div className="sidebar__item sidebar__title">Développeuse Web</div>
             <a href={resume} download="resume.pdf">
                 <div className="sidebar__item sidebar__resume">
                     <img src={cv} alt="resume" className="sidebar__icon" />Telecharger mon CV
@@ -54,6 +54,7 @@ const Sidebar = () => {
                     <img src={pin} alt="location" className="sidebar__icon mr-3" />
                     Aix - Marseille</div>
             </div>
+            <a href="tel:+33658490093">06.58.49.00.93</a>
             <div className="sidebar__item sidebar__email" onClick={handleEmailMe}>Contactez moi</div>
         </motion.div>
     )

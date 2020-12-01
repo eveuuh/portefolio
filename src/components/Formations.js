@@ -54,7 +54,7 @@ const Formations = () => {
                         <p className="resume-card_split"> -------------------------------</p>
 
                         <h5 className="resume-card__title">
-                          Infirmiére Diplômée d'état
+                          Infirmière Diplômée d'état
                         </h5>
                     
 
@@ -84,7 +84,7 @@ const Formations = () => {
                         </p>
                         <p className="resume-card_split"> -------------------------------</p>
                         <h5 className="resume-card__title">
-                            Diplômé d'état d'Infirmiére
+                            Diplômé d'état d'Infirmière
                         </h5>
                         <p className="resume-card__name">
                             Juillet 2012

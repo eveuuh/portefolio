@@ -135,9 +135,10 @@ export default class extends Component {
       exit="exit"
 
   >
-      <div className="formContact">
+      <div className="formContact">      
+      <h2 className="contact-form-title">Si mon profil vous intéresse, contactez moi via ce formulaire, je me ferai une joie de vous répondre dans les plus brefs délais </h2>
+
       <form className="contact-form">
-        <h2 className="contact-form-title">Si mon profil vous interesse, contactez moi via ce formulaire, je me ferai une joie de vous répondre dans les plus brefs délais </h2>
         <div className="form-content">
           <input
             type="text"
