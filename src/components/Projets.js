@@ -41,7 +41,7 @@ const Projets = () => {
         >
 
             <div className="projects__navbar">
-                <div className={active === 'All' && 'projects__navbar-active'} onClick={
+                <div className={active === 'All' ?  'projects__navbar-active': undefined} onClick={
                     () => {
                         setProjets(data_projects)
                         setActive("All")

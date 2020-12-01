@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import './contact.css';
 import{ init } from 'emailjs-com';
+import { motion } from 'framer-motion'
 
 
 export default class extends Component {
+
   constructor(props) {
     super(props);
     this.state = {
@@ -13,7 +15,23 @@ export default class extends Component {
       email: "",
       message: "",
     };
-
+    this.contact_variants = {
+        hidden: {
+            opacity: 0
+        },
+        visible: {
+            opacity: 1,
+            transition: {
+                delay: 0.2, duration: 0.6,
+            }
+        },
+        exit: {
+            opacity: 0,
+            transition: {
+                ease: 'easeInOut'
+            }
+        }
+    }
     init("user_ePuvOiCN6rwGVGGlSb703");
   }
 
@@ -107,7 +125,16 @@ export default class extends Component {
   }
 
   render() {
+    
     return (
+      <motion.div className="container resume"
+
+      variants={this.contact_variants}
+      initial="hidden"
+      animate="visible"
+      exit="exit"
+
+  >
       <div className="formContact">
       <form className="contact-form">
         <h2 className="contact-form-title">Si mon profil vous interesse, contactez moi via ce formulaire, je me ferai une joie de vous répondre dans les plus brefs délais </h2>
@@ -164,6 +191,7 @@ export default class extends Component {
         <div className="end.form-message"></div>
       </form>
       </div>
+      </motion.div>
     );
   }
 }

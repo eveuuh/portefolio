@@ -62,16 +62,17 @@ const Navbar = () => {
                         <div className="navbar__item" onClick={() => setActive('Competences')}>Competences</div>
                     </Link>
                 }
+                {active !== 'Contact' &&
+                    <Link to="/contact">
+                        <div className="navbar__item" onClick={() => setActive('Contact')}>Contact</div>
+                    </Link>
+                }
                 {active !== 'Projets' &&
                     <Link to="/projets">
                         <div className="navbar__item" onClick={() => setActive('Projets')}>Projets</div>
                     </Link>
                 }
-                  {active !== 'Contact' &&
-                    <Link to="/contact">
-                        <div className="navbar__item" onClick={() => setActive('Contact')}>Contact</div>
-                    </Link>
-                }
+                
                 
             </div>
 

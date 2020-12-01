@@ -36,7 +36,7 @@ const Formations = () => {
                     
                     <div className="resume-card__body"> 
                     <h4 className="resume-card__heading">
-                            Cursus <i class="fas fa-user-graduate"></i>
+                            Cursus <i className="fas fa-user-graduate"></i>
                     </h4>
                      <h5 className="resume-card__title">
                           Developpeur Web et Web mobile
@@ -68,7 +68,7 @@ const Formations = () => {
                    
                     <div className="resume-card__body">
                     <h4 className="resume-card__heading">
-                            Diplômes <i class="fas fa-award"></i>
+                            Diplômes <i className="fas fa-award"></i>
                     </h4>
                         <h5 className="resume-card__title">
                             Concepteur - développeur d'applications Web - niveau VI
