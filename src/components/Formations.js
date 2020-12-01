@@ -93,6 +93,27 @@ const Formations = () => {
                         
                     </div>
                 </div>
+                <div className="col-lg-12 resume-card" >
+                   
+                    <div className="resume-card__body">
+                    <h4 className="resume-card__heading">
+                        Experiences <i class="fas fa-laptop-code"></i>
+                    </h4>
+                    <h5 className="resume-card__title">
+                        Stage d'un mois chez Simple lif'- Marseille (Octobre-Novembre 2020)         
+              
+                    </h5>
+                    <p className="resume-card__name">
+                        Amélioration de l'interface utilisateur (UI-UX/responsive) de la version web (Réact)
+                    </p>
+                    <h5 className="resume-card__title">
+                        Projet de fin d'étude au Wagon: Ludin (Mars-Avril 2020)         
+              
+                    </h5>
+                    <p className="resume-card__name">
+                        Création d'une application web en groupe de 4 developpeurs. Gestion du Front & Back (Ruby on Rails/JS)</p>
+                    </div>
+                </div>
             </div>
 
            
