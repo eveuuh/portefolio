@@ -54,7 +54,7 @@ import Skillcard from './Skillcard';
                 exit="exit"
             >
                 <h6 className="intro">
-                   Retrouvez ici les technologies utilisées au cours de mon apprentissage ainsi que ma capacité de travail : 
+                   Retrouvez ici les technologies utilisées au cours de mon apprentissage ainsi que les compétences que je pourrais mettre à profit: 
                  </h6>
             <div className="column">  
                 <div className="container technos__container">
