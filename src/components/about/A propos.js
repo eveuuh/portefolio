@@ -51,7 +51,8 @@ const About = () => {
             <br></br>
             
             <br></br> D'un naturel <b> <font color="black">Dynamique, autonome et motivée </font></b>pour mener à bien des projets dans le developpement web, je suis persuadée que je saurai <b> <font color="black">m'intégrer et m'adapter</font></b> rapidement au sein d'une équipe technique.
-            Je suis donc à la recherche d'un emploi en tant que Développeuse Web, 
+            Les veilles technologiques et une polyvalence issue d'un parcours professionnel riche en expériences sont des atouts que je souhaite à présent partager au sein d'une nouvelle équipe.
+            Je suis donc à la recherche d'un emploi en tant que Développeuse Web.
             <br></br>
             <br></br> <br></br> Vous trouverez ainsi sur ce portefolio mon parcours et les projets que j'ai pu réaliser.
             
