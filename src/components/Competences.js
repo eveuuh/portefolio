@@ -10,20 +10,17 @@ import Skillcard from './Skillcard';
         },
         {
             
-            title: "Back-end developpement",
+            title: "développementBack-end ",
             about: "MySql - Mariadb - Ruby On Rails - PHP",
         },
-        {
-            title: "Développement d'API",
-            about: "Postman "
-        },
+
        
         {
             title: "Outils collaboratif",
             about: "Git- Github- Bitbucket- Slack - Discord - Zoom - Trello - Figma"
         },
         {
-            title: "Environnement de developpement",
+            title: "Environnement de développement",
             about: "Heroku - Netlify - Apache - Nginx - Vscode - Sublime Text - Linux(Ubuntu) - MacOs"
         },
      

@@ -39,13 +39,13 @@ const Formations = () => {
                             Cursus <i className="fas fa-user-graduate"></i>
                     </h4>
                      <h5 className="resume-card__title">
-                          Developpeur Web et Web mobile
+                          Développeur Web et Web mobile
                         </h5>
                         <p className="resume-card__name">
                           Simplon Marseille (juin 2020-février 2021)
                         </p>
                         <h5 className="resume-card__title">
-                          Developpeur FullStack
+                          Développeur FullStack
                         </h5>
                         <p className="resume-card__name">
                           Le Wagon Marseille batch #392 (janvier-mars 2020)
@@ -84,7 +84,7 @@ const Formations = () => {
                         </p>
                         <p className="resume-card_split"> -------------------------------</p>
                         <h5 className="resume-card__title">
-                            Diplômé d'état d'Infirmière
+                            Diplômée d'état d'Infirmière
                         </h5>
                         <p className="resume-card__name">
                             Juillet 2012

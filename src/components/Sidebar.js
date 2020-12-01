@@ -44,10 +44,10 @@ const Sidebar = () => {
      
             <div className="sidebar__contact">
                 <div className="sidebar__item sidebar__github">
-                    <a href="https://github.com/eveuuh"><img src={github} alt="github" className="sidebar__icon mr-3" />Github</a>
+                    <a href="https://github.com/eveuuh" target="_blank" rel="noopener noreferrer"><img src={github} alt="github" className="sidebar__icon mr-3" />Github</a>
                 </div>
                 <div className="sidebar__item sidebar__github">
-                <a href="https://www.linkedin.com/in/evejourdan/"><img src={linkedin} alt="linkedin" className="sidebar__icon mr-3" />Linkedin</a>
+                <a href="https://www.linkedin.com/in/evejourdan/" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="linkedin" className="sidebar__icon mr-3" />Linkedin</a>
                 </div>
 
                 <div className="sidebar__location">
