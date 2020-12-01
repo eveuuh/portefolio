@@ -1,4 +1,4 @@
-Ceci est mon portefolio en React, je l'ai réalisé dans le cadre de la préparation de mon stage . https://evejourdan.netlify.app/projets 
+Ceci est mon portefolio en React, je l'ai réalisé dans le cadre de la préparation de mon stage . https://evejourdan.netlify.app/
 
 
 #Fait
