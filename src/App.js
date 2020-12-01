@@ -27,20 +27,20 @@ function App() {
                 <Route exact path="/">
                   <About />
                 </Route>
-                <Route path="/formations">
+                <Route exact path="/formations">
                   <Formations />
                 </Route>
-                <Route path="/competences">
+                <Route exact path="/competences">
                   <Competences />
                 </Route>
-                <Route path="/projets" component={Projets} />
-                <Route path="/contact" >
+                <Route exact path="/projets" component={Projets} />
+                <Route exact path="/contact" >
                   <Contact />
                 </Route>
                 <Route>
                   <Redirect to="/" />
                 </Route>
-              
+               
               </Switch>
             </AnimatePresence>
           </div>

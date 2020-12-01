@@ -9,8 +9,7 @@
     font-size: 16px;
     margin: 10px 0;
     border-radius: 15px;
-    height: 500px;
-    padding: 100px;
+    padding: 10px;
     color: black;
 
     
@@ -39,9 +38,12 @@
 }
 
 h1.about_title{
-    position: absolute;
-    top: 20%;
-    left: 39%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top:20px;
+    
+
 
 }
 h6.about__intro{
