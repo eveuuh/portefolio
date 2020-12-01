@@ -45,15 +45,17 @@ const About = () => {
                     </h1>
             </motion.div>
             <h6 className="about__intro">
-            Je m'appelle <b> <font color="#809aec">Eve</font></b> et suite à une reconversion professionelle, je suis à la recherche d'un poste en tant que <b> <font color="#809aec">Développeuse Web .</font></b><br></br>
+            Je m'appelle <b> <font color="black">Eve</font></b> et suite à une reconversion professionelle, je suis à la recherche d'un poste en tant que <b> <font color="black">Développeuse Web .</font></b><br></br>
            
-            <br></br>J'ai tout d'abord exercé pendant 7 ans en tant qu'infirmière dans différents services d'urgences, ce qui m'a permis de parcourir une partie du monde, et exercer cette profession sur différents continents. Ces fabuleuses années m'ont permis de faire murir mon projet professionnel, afin d'allier mes précédentes expériences à mon appétence pour les nouvelles technologie, en travaillant dans l'<b> <font color="#809aec">e-santé</font></b><br></br>.
-            <br></br> Passionnée par le domaine du médical, je veux mettre à profit mes nouvelles compétences informatiques, ainsi que mon expérience en tant qu'infirmière . Mon ojectif profesionnel est de rejoindre une équipe et de collaborer afin d'améliorer le quotidien du personnel médical et des patients, et ce, en trouvant des solutions informatiques pour alléger le quotidien de ces personnes. 
+            <br></br>J'ai tout d'abord exercé pendant 7 ans en tant qu'infirmière dans différents services d'urgences, ce qui m'a permis de parcourir une partie du monde, et exercer cette profession sur différents continents. Ces fabuleuses années m'ont permis de faire murir mon projet professionnel, afin d'allier mes précédentes expériences à mon appétence pour les nouvelles technologies, en travaillant dans l'<b> <font color="black">e-santé</font></b> afin de mettre à profit mes nouvelles compétences informatiques, et mon expérience en tant qu'infirmière.          
+            <br></br>
             
+            <br></br> D'un naturel <b> <font color="black">Dynamique, autonome et motivée </font></b>pour mener à bien des projets dans le developpement web, je suis persuadée que je saurai <b> <font color="black">m'intégrer et m'adapter</font></b> rapidement au sein d'une équipe technique.
+            Je suis donc à la recherche d'un emploi en tant que Développeuse Web, 
+            <br></br>
+            <br></br> <br></br> Vous trouverez ainsi sur ce portefolio mon parcours et les projets que j'ai pu réaliser.
             
-            <br></br>   <br></br> Vous trouverez ainsi sur ce portefolio mon parcours et les projets que j'ai pu réaliser.
-            
-            Si mon profil vous intéresse, n'hésitez pas à me <b> <font color="#809aec">contacter</font></b> , je me ferai une joie d'écouter vos propositions !
+            Si mon profil vous intéresse, n'hésitez pas à me <b> <font color="black">contacter</font></b> , je me ferai une joie d'écouter vos propositions !
             </h6>
         </motion.div>
        
