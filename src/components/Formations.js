@@ -104,7 +104,7 @@ const Formations = () => {
               
                     </h5>
                     <p className="resume-card__name">
-                        Amélioration de l'interface utilisateur Bonami(UI-UX/responsive) de la version web (Réact).
+                        Amélioration de l'interface utilisateur Bonami (UI-UX/responsive) de la version web (Réact).
                     </p>
                     <h5 className="resume-card__title">
                         Projet de fin d'étude au Wagon: Ludin (Mars-Avril 2020).       

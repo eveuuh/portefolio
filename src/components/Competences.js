@@ -10,7 +10,7 @@ import Skillcard from './Skillcard';
         },
         {
             
-            title: "développementBack-end ",
+            title: "développement Back-end ",
             about: "MySql - Mariadb - Ruby On Rails - PHP",
         },
 
