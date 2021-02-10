@@ -1,5 +1,6 @@
 import React from 'react';
 import github from '../assets/icons/github.png'
+
 const ProjectCard = ({ projet: { name, image, deployed_url, github_url } }) => {
     return (
         <div className="projectCard col-md-6 col-lg-4 my-2">
@@ -12,6 +13,7 @@ const ProjectCard = ({ projet: { name, image, deployed_url, github_url } }) => {
                         <img src={github} alt="github link" className="projectCard__icon" />
                     </a>
                     {name}
+
                 </div>
             </figure>
 

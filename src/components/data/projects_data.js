@@ -5,6 +5,7 @@ import egghead from '../../assets/projects_images/egghead.png'
 import actutu from '../../assets/projects_images/actutu.png'
 import nucleotic from '../../assets/projects_images/nucleotic.png'
 import pf from '../../assets/projects_images/pf.png'
+import shifumi from '../../assets/projects_images/shifumi.png'
 
 const data_projects = [
     {
@@ -55,6 +56,13 @@ const data_projects = [
         deployed_url: '',
         github_url: ' ',
         category: ['react.js']
+    },
+    {
+        name: 'Shifumi',
+        image: shifumi,
+        deployed_url: 'https://eveuuh.github.io/shifumi',
+        github_url: 'https://github.com/eveuuh/shifumi ',
+        category: ['js']
     },
 ]
 
